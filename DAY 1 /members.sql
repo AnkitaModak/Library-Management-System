@@ -10,3 +10,5 @@ CREATE TABLE MEMBERS(
      regDate VARCHAR2(10),
      status VARCHAR2(10) CHECK (status = 'active' OR  status = 'inactive') NOT NULL
 );
+ALTER TABLE MEMBERS
+RENAME COLUMN name TO memberName;

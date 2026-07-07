@@ -1,0 +1,7 @@
+CREATE TABLE AUTHORS(
+    authId VARCHAR2(10) PRIMARY KEY NOT NULL,
+    authName VARCHAR2(26) NOT NULL,
+    nationality VARCHAR2(20),
+    DOB VARCHAR2(10),
+    firstPublish VARCHAR2(10)
+);

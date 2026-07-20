@@ -4,6 +4,5 @@ Create a suitable sequence for generating new Borrow IDs.*/
 CREATE SEQUENCE borrow_seq
 START WITH 20
 INCREMENT BY 1;
-INSERT INTO BORROW
-VALUES(BORROW_SEQ.NEXTVAL,'M1','B2','12/03/26','14/05/26','12/05/26',120,'E3');
+
 

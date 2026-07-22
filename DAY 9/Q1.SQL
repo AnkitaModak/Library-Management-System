@@ -1,0 +1,11 @@
+/*Display:
+
+Welcome to ABC Public Library
+
+using DBMS_OUTPUT.PUT_LINE.*/
+
+SET SERVEROUTPUT ON;
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('WELCOME TO ABC LIBRARY');
+END;
+/

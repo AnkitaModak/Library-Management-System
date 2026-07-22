@@ -1,1 +1,12 @@
 --Retrieve the fine amount for borrow record BR003 into a variable and display it.
+DECLARE
+   VK_BORROWAMT BORROW.FINEAMT%TYPE;
+BEGIN
+   SELECT FINEAMT
+   INTO VK_BORROWAMT
+   FROM BORROW
+   WHERE BORROWID = 'BR003';
+
+   DBMS_OUTPUT.PUT_LINE(VK_BORROWAMT);
+END;
+/

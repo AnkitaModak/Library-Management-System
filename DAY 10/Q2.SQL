@@ -1,8 +1,5 @@
 /*Topic 3: IF...ELSIF...ELSE
-Client Work Order #3
-
 Classify the fine amount.
-
 Fine = 0
 Print No Fine
 Fine ≤ 100
